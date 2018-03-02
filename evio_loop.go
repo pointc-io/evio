@@ -14,7 +14,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/tidwall/evio/internal"
+	"github.com/pointc-io/evio/internal"
+)
+
+var (
+	//DialPool *pool.Pool
 )
 
 func (ln *listener) close() {
